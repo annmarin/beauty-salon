@@ -14,7 +14,7 @@ body {
   display: block;
   clear: both; }
 
-/*NAVIGATION */
+/*NAVIGATION*/
 header {
   width: 100%;
   min-height: 50px;
@@ -41,6 +41,7 @@ header {
 @media (min-width: 768px) and (max-width: 992px) {
   header nav ul li a {
     padding: 0 10px; } }
+
 @media (max-width: 767px) {
   header nav {
     text-align: center; }
@@ -48,9 +49,10 @@ header {
       float: none; }
       header nav ul li {
         display: block; } }
-/*JUMBOTRON */
+
+/*JUMBOTRON*/
 .hero {
-  background: url(https://images.pexels.com/photos/275845/pexels-photo-275845.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb) center/cover no-repeat;
+  background: url("D:\annmarinlue-lighthouseImageshero.jpeg") center/cover no-repeat;
   height: 100vh;
   padding-top: 40vh;
   overflow: hidden; }
@@ -71,7 +73,6 @@ header {
   .hero {
     height: 65vh;
     padding-top: 100px; }
-
   .slogan {
     float: none;
     padding: 20px 35px;
@@ -81,8 +82,9 @@ header {
       font-size: 30px;
       line-height: 30px;
       text-align: center; } }
-/*ICONS */
-/*GRID AND MOBILE GRIDs */
+
+/*ICONS*/
+/*GRID AND MOBILE GRIDs*/
 .col-1 {
   width: 8.33%; }
 
@@ -122,75 +124,55 @@ header {
 @media (min-width: 768px) and (max-width: 1199px) {
   .col-m-1 {
     width: 8.33%; }
-
   .col-m-2 {
     width: 16.66%; }
-
   .col-m-3 {
     width: 25%; }
-
   .col-m-4 {
     width: 33.3%; }
-
   .col-m-5 {
     width: 41.66%; }
-
   .col-m-6 {
     width: 50%; }
-
   .col-m-7 {
     width: 58.33%; }
-
   .col-m-8 {
     width: 66.66%; }
-
   .col-m-9 {
     width: 75%; }
-
   .col-m-10 {
     width: 83.33%; }
-
   .col-m-11 {
     width: 91.66%; }
-
   .col-m-12 {
     width: 100%; } }
+
 @media (max-width: 767px) {
   .col-s-1 {
     width: 8.33%; }
-
   .col-s-2 {
     width: 16.66%; }
-
   .col-s-3 {
     width: 25%; }
-
   .col-s-4 {
     width: 33.3%; }
-
   .col-s-5 {
     width: 41.66%; }
-
   .col-s-6 {
     width: 50%; }
-
   .col-s-7 {
     width: 58.33%; }
-
   .col-s-8 {
     width: 66.66%; }
-
   .col-s-9 {
     width: 75%; }
-
   .col-s-10 {
     width: 83.33%; }
-
   .col-s-11 {
     width: 91.66%; }
-
   .col-s-12 {
     width: 100%; } }
+
 section > .container {
   margin: 50px auto;
   text-align: center; }
@@ -198,6 +180,7 @@ section > .container {
 @media (max-width: 992px) {
   section > .container {
     margin-bottom: 0; } }
+
 [class*="col-"] {
   float: left;
   position: relative; }
@@ -216,7 +199,7 @@ i.fa.middle {
 .middle {
   background-color: #0fd3dd; }
 
-/*4. -h2 */
+/*4. -h2*/
 i.edge ~ h3,
 i.middle ~ h3,
 h2,
@@ -227,7 +210,7 @@ i.middle ~ h3,
 .numbers h4 {
   color: #0fd3dd; }
 
-/*4. -h2 */
+/*4. -h2*/
 i.edge ~ h3,
 h2 {
   color: rgba(0, 0, 0, 0.8); }
@@ -241,7 +224,8 @@ i.middle ~ p {
   i.edge ~ p,
   i.middle ~ p {
     padding: 0 5px; } }
-/*6.8. */
+
+/*6.8.*/
 @media (max-width: 767px) {
   .three [class*="col-"],
   [class*="col-"].staff,
@@ -249,18 +233,17 @@ i.middle ~ p {
     float: none;
     width: 100%;
     margin: 0 auto; }
-
   .margin-top {
     margin-top: 35px; }
-
-  /*6. -staff */
+  /*6. -staff*/
   i.edge ~ h3,
   i.middle ~ h3,
   .staff h3 {
     padding: 0;
     margin-top: 5px;
     margin-bottom: 5px; } }
-/*TITLE AND SHORT TEXT */
+
+/*TITLE AND SHORT TEXT*/
 h2 ~ p {
   margin: 0 auto;
   max-width: 900px; }
@@ -271,7 +254,8 @@ h2 ~ p {
     h2 ~ p {
       padding: 0 10px 35px;
       text-align: justify; } }
-/*GALLERY */
+
+/*GALLERY*/
 .photo {
   min-height: 200px; }
 
@@ -288,17 +272,18 @@ h2 ~ p {
     border-radius: 10px;
     margin: 0 20px; }
 
-/*6. -staff */
+/*6. -staff*/
 .photo:hover .layer,
 .circle:hover .occupation {
   display: block;
-  transition: 0.3s; }
+  transition: .3s; }
 
 @media (max-width: 991px) {
   .layer {
     display: block;
     background-color: rgba(0, 0, 0, 0.1); } }
-/*STAFF */
+
+/*STAFF*/
 .circle, .occupation {
   height: 200px;
   width: 200px;
@@ -322,20 +307,20 @@ h2 ~ p {
   h3.beautician:after {
     content: "Beautician";
     display: block; }
-
   h3.hairdresser:after {
     content: "Hairdresser";
     display: block; }
-
   h3.masseur:after {
     content: "Masseur";
     display: block; } }
+
 @media (max-width: 767px) {
   .margin-extra {
     margin-top: 35px; } }
-/*AWARDS */
+
+/*AWARDS*/
 .seven {
-  background: url(https://images.pexels.com/photos/6148/brush-makeup-make-up-brushes.jpg?w=1260&h=750&auto=compress&cs=tinysrgb) center/cover no-repeat;
+  background: url("D:\annmarinlue-lighthouseImagesgallery_7_brushes_awardsback.jpg") center/cover no-repeat;
   min-height: 400px; }
 
 .awards h2,
@@ -346,6 +331,7 @@ h2 ~ p {
 .awards p {
   color: #fff;
   text-align: left; }
+
 .awards p {
   margin-top: 0; }
 
@@ -363,23 +349,22 @@ h2 ~ p {
 @media (min-width: 768px) and (max-width: 1199px) {
   .awards p {
     padding-right: 8px; } }
+
 @media (max-width: 767px) {
   .picture img {
     display: none !important; }
-
   .awards h2 {
     margin-top: 50px; }
-
   .awards h2,
   .awards p {
     text-align: center;
     padding-right: 8px;
     overflow: hidden; }
-
   .seven [class*="col-"] {
     width: 100%;
     min-height: 1px; } }
-/*NUMBERS */
+
+/*NUMBERS*/
 .numbers {
   font-family: "Raleway", sans-serif;
   max-width: 1000px;
@@ -396,7 +381,8 @@ h2 ~ p {
 @media (max-width: 992px) {
   .eight {
     margin-bottom: 50px; } }
-/*FOOTER */
+
+/*FOOTER*/
 .nine {
   background-color: #313234;
   color: #fff;
@@ -417,7 +403,7 @@ h2 ~ p {
   letter-spacing: -2px;
   padding-left: 10px; }
 
-/*changes */
+/*changes*/
 .row {
   text-align: left;
   padding-right: 20px;
@@ -446,65 +432,64 @@ footer {
   text-align: center;
   color: #fff; }
 
-/*Mobile */
+/*Mobile*/
 @media (min-width: 992px) and (max-width: 1199px) {
   .padding-left {
     padding-left: 10px; } }
+
 @media (min-width: 421px) and (max-width: 991px) {
   [class*="col-"].footer {
     float: none;
     width: 80%;
     margin: 0 auto; } }
+
 @media (max-width: 991px) {
   .nine {
     padding-top: 10px; }
-
   .footer h3,
   .footer p,
   .social-media {
     text-align: center;
     padding-right: 0; }
-
   .footer h3:before {
     content: "---------------";
     letter-spacing: -2px;
     padding-right: 10px; }
-
   .row [class="col-4"] {
-    width: 33.33333%;
+    width: 33.3333333333%;
     text-align: right;
     padding-bottom: 5px; }
   .row [class="col-8"] {
-    width: 66.66667%;
+    width: 66.6666666667%;
     text-align: center; }
-
   .table h3 {
     margin-top: 0px; } }
+
 @media (min-width: 650px) and (max-width: 860px) {
   .table h3 {
     margin-top: 20px; } }
+
 @media (min-width: 520px) and (max-width: 649px) {
   .table h3 {
     margin-top: 35px; } }
+
 @media (min-width: 421px) and (max-width: 519px) {
   .table h3 {
     margin-top: 40px; } }
+
 @media (max-width: 420px) {
   .table h3 {
     margin-top: 30px; }
-
   .footer h3:before, .footer h3:after {
     display: none; }
-
   footer {
     margin-top: 10px; }
-
   .row [class="col-4"] {
     text-align: center; }
-
   [class*="col-"].footer {
     width: 100%;
     padding: 0 5px; }
-
   .social-media i.fa {
     margin-right: 5px; } }
+
+/*# sourceMappingURL=style0.css.map */

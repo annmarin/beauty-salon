@@ -1,0 +1,31 @@
+{
+  "name": "kodilla-beauty-salon",
+  "version": "1.0.0",
+  "description": "desc",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annmarin/beauty-salon.git"
+  },
+  "keywords": [
+    "beauty",
+    "salon",
+    "project"
+  ],
+  "author": "Anna Bródka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annmarin/beauty-salon/issues"
+  },
+  "homepage": "https://github.com/annmarin/beauty-salon#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  }
+}
